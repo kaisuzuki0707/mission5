@@ -20,7 +20,7 @@
 			."pass TEXT"
 			.");";
 			$stmt=$pdo->query($sql);
-
+			//My name is Kai Suzuki.
 			if(isset($_POST["submit2"])){ 
 			//削除するとき
 				if(!empty($_POST["num1"]) && !empty($_POST["pass2"])){
